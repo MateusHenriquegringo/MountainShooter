@@ -24,6 +24,9 @@ class Menu:
             self.menu_text(50, "Mountain", C_ORANGE, ((WIN_WIDTH / 2), 70))
             self.menu_text(50, "Shooter", C_ORANGE, ((WIN_WIDTH / 2), 120))
 
+            self.menu_text(25, "Mateus Derossi", C_WHITE, ((WIN_WIDTH / 2), 140))
+            self.menu_text(25, "RU:4294223", C_WHITE, ((WIN_WIDTH / 2), 160))
+
             for i in range(len(MENU_OPTION)):
                 if i == menu_option:
                     self.menu_text(20, MENU_OPTION[i], C_YELLOW, ((WIN_WIDTH / 2), 200 + 25 * i))
